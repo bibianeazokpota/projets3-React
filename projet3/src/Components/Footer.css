@@ -1,13 +1,30 @@
-.div {
-    display: flex;
+*{
+    box-sizing: border-box;
 }
 
-.foot {
-    
+body{
+    height: 100vh;
+    position: ;
 }
-.foot div{
+.foot {
+    width: 100%;
+    background-color: #333;
+}
+
+#divContener {
     display: flex;
-    align-items: baseline;
-    justify-content: center;
-    background-color: rgb(140, 144, 144);
+    gap: 50px;
+    justify-content: space-around;
+}
+#divContener div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+
+#divContener div a {
+    text-decoration: none;
+    color: #fff;
+    
 }
