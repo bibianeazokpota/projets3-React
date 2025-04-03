@@ -1,19 +1,14 @@
-import React from 'react'
+import React from 'react';
+import './NavBar.css';
 
 function NavBar() {
   return (
-    <div>
-        <div>
-            <a href="accueil">accueil</a>
-        </div>
-        <div>
-            <a href="profil">profil</a>
-        </div>
-        <div>
-            <a href="form">form</a>
-        </div>
+    <div className="navbar">
+      <a href="accueil">Accueil</a>
+      <a href="profil">Profil</a>
+      <a href="form">Form</a>
     </div>
-  )
+  );
 }
 
-export default NavBar
+export default NavBar;
