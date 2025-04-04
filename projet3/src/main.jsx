@@ -4,12 +4,11 @@ import './Components/Footer.css'
 import Footer from './Components/Footer.jsx'
 import App from './App.jsx'
 import NavBar from './Components/NavBar.jsx' 
-import './components/NavBar.css'
+import './Components/NavBar.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <NavBar />
-    <SideBar />
     <Footer />
   </StrictMode>,
 )
